@@ -8,6 +8,7 @@ Xcode Swift 3 snippets to make your life easier.
 2. Move snippet files into `~/Library/Developer/Xcode/UserData/CodeSnippets/` directory. (Create it if it doesn't exist)
 3. Quit & Restart Xcode
 4. You can find snippets from Utilities (image shown below)
+
 ![Snippets](assets/snippets.png)
 
 ## Usage
