@@ -3,24 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>s_Extension</string>
+	<string>s_addDivisionLine</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - &lt;#comment#&gt;
-extension &lt;#class#&gt;: &lt;#protocol#&gt; {
-  &lt;#code#&gt;
-}</string>
+	<string>// ---------------------------------------------------------------</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7B388F38-4722-486E-BC17-D3D606A5D6FE</string>
+	<string>C48C6655-A5E0-4C48-83E2-3E04AB75D3AC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Extension code snippet for Swift</string>
+	<string>Just add division line as a comment</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Extension Declaration</string>
+	<string>Division Line Comment</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
