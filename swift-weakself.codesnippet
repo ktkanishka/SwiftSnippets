@@ -9,7 +9,7 @@
 		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[weak self] in
+	<string>[weak self] &lt;#parameter#&gt; in
             guard let `self` = self else { return }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
