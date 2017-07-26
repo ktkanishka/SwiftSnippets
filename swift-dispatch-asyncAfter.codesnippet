@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(&lt;#seconds#&gt;)) {
+	<string>DispatchQueue.main.asyncAfter(wallDeadline: .now() + .seconds(&lt;#seconds#&gt;)) {
     
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
