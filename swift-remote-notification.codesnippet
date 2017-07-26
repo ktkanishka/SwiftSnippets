@@ -23,7 +23,8 @@
     _ application: UIApplication,
     didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data
     ) {
-    print("Successfully registered for Remote Notifications with token: \(deviceToken)")
+    let token = deviceToken.reduce("") { $0 + String(format: "%.2hhx", $1) }
+    print("Successfully registered for Remote Notifications with token: \(token)")
   }
   
   func application(
