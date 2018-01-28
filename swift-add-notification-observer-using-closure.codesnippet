@@ -3,29 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>s_addNotificationCenterObserver</string>
+	<string>s_addNotificationObserverUsingClosure</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NotificationCenter.default.addObserver(
-  self,
-  selector: #selector(&lt;#selector#&gt;),
-  name: &lt;#Notification.Name#&gt;,
-  object: nil
-)</string>
+	<string>    NotificationCenter.default.addObserver(
+      forName: Notification.Name&lt;#NotificationName#&gt;,
+      object: nil,
+      queue: .main
+    ) { noti in
+      &lt;#code#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>86464671-3FED-4312-B925-936322E940F4</string>
+	<string>230057C4-16BE-45D2-A515-05689E59A36C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Add notificationCenter observer snippet for Swift</string>
+	<string>Add observer to notificationCenter on mainQueue</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Add NotificationCenter Observer</string>
+	<string>Add Notification Observer using Closure</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
