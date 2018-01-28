@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>s_measure_performance</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>  @discardableResult
+  func measurePerformance(block: ()-&gt;()) -&gt; Double {
+    let info = ProcessInfo.processInfo
+    let begin = info.systemUptime
+    block()
+    let diff = info.systemUptime - begin
+    print(diff)
+    return diff
+  }
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7E6BF4EB-44F1-4B46-88DF-D840112B6B23</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Measure performance of code snippet for Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Measure performance</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
