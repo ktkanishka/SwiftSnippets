@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>s_addDivisionLine</string>
+	<string>s_viewDidAppear</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// ---------------------------------------------------------------</string>
+	<string>  override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
+    &lt;#code#&gt;
+  }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C48C6655-A5E0-4C48-83E2-3E04AB75D3AC</string>
+	<string>38052022-8EEB-4B3B-9822-E0C2F988234E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Just add division line as a comment</string>
+	<string>View LifeCycle - viewDidAppear Snippet</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Division Line Comment</string>
+	<string>View Did Appear Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

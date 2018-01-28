@@ -3,22 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>s_MARK</string>
+	<string>s_addNotificationCenterObserver</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
-		<string>TopLevel</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: &lt;#Comment#&gt;</string>
+	<string>NotificationCenter.default.addObserver(
+  self,
+  selector: #selector(&lt;#selector#&gt;),
+  name: &lt;#Notification.Name#&gt;,
+  object: nil
+)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7329708D-DA17-4129-A8F9-A780DFA5FAE1</string>
+	<string>86464671-3FED-4312-B925-936322E940F4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Divider label for separating code into sections</string>
+	<string>Add notificationCenter observer snippet for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Mark Comment</string>
+	<string>Add NotificationCenter Observer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

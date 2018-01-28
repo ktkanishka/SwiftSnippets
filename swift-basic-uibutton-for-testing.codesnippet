@@ -3,22 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>s_MARK</string>
+	<string>s_setupBasicUIButtonForTesting</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
-		<string>TopLevel</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: &lt;#Comment#&gt;</string>
+	<string>    let button = UIButton()
+    button.frame = CGRect(x: 50, y: 50, width: 100, height: 50)
+    button.backgroundColor = .blue
+    button.setTitle("Button", for: .normal)
+    button.addTarget(self, action: #selector(didTapButton(_:)), for: .touchUpInside)
+    view.addSubview(button)
+    @objc private func didTapButton(_ button: UIButton) {
+      
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7329708D-DA17-4129-A8F9-A780DFA5FAE1</string>
+	<string>722A4087-A492-42AF-9F3E-42E818417DE1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Divider label for separating code into sections</string>
+	<string>Basic UIButton Snippet For Simple Testing</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Mark Comment</string>
+	<string>Basic UIButton For Testing</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>s_BDDUnitTestWithQuick
+	<string>s_UnitTestWithQuickAndNimble
 import Nimble
 
 class &lt;#class#&gt;Tests: QuickSpec {
@@ -44,7 +44,7 @@ class &lt;#class#&gt;Tests: QuickSpec {
 	<key>IDECodeSnippetSummary</key>
 	<string>Unit test snippet with Quick and Nimble</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>BDD Unit Test </string>
+	<string>Quick and Nimble Unit Test Initialization</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

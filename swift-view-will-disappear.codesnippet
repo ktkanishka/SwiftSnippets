@@ -3,22 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>s_MARK</string>
+	<string>s_viewWillDisappear</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
-		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: &lt;#Comment#&gt;</string>
+	<string>  override func viewWillDisappear(_ animated: Bool) {
+    super.viewWillDisappear(animated)
+    &lt;#code#&gt;
+  }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7329708D-DA17-4129-A8F9-A780DFA5FAE1</string>
+	<string>F43862B0-AB36-4BE2-AC09-616D652CF145</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Divider label for separating code into sections</string>
+	<string>View LifeCycle - viewWillDisappear Snippet</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Mark Comment</string>
+	<string>viewWillDisappear Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

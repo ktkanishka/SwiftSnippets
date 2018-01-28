@@ -3,13 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>s_DispatchAsyncAfter</string>
+	<string>s_dispatchQueue_mainAsyncAfter</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DispatchQueue.main.asyncAfter(wallDeadline: .now() + .seconds(&lt;#seconds#&gt;)) {
+	<string>DispatchQueue.main.asyncAfter(deadline: .now() + &lt;#seconds#&gt;) {
     
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -19,7 +20,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>GCD DispatchMainQueue AsyncAfter snippet for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>GCD DispatchAsyncAfter</string>
+	<string>GCD DispatchQueue on main async after</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

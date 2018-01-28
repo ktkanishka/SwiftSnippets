@@ -3,26 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>s_ForInLoop</string>
+	<string>s_UICollectionViewDelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>for case let &lt;#object#&gt; in &lt;#collection#&gt; {
-  &lt;#code#&gt;
+	<string>// MARK: - UICollectionViewDelegate
+
+extension &lt;#class#&gt;ViewController : UICollectionViewDelegate {
+  func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    &lt;#code#&gt;
+  }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>48C9EB7D-A166-4781-8DC8-6961B57BDC02</string>
+	<string>E07DF7D6-0BEA-4A89-8C88-1885F489E96C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>For-in Loop that casts objects inline for Swift</string>
+	<string>UICollectionViewDelegate snippet for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>For-In Loop</string>
+	<string>UICollectionViewDelegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

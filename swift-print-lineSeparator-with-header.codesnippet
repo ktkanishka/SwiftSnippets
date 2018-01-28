@@ -3,22 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>s_MARK</string>
+	<string>s_printLineSeparator</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeExpression</string>
+		<string>CodeBlock</string>
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: &lt;#Comment#&gt;</string>
+	<string>print("\n-------------------- [ &lt;#heder#&gt; ] --------------------\n")</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7329708D-DA17-4129-A8F9-A780DFA5FAE1</string>
+	<string>AB1F2771-948B-493C-9560-2D0C6DF5D7BE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Divider label for separating code into sections</string>
+	<string>print separator line on console for debugging</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Mark Comment</string>
+	<string>Print Line Separator</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

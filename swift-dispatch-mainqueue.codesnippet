@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>s_DispatchQueueMain</string>
+	<string>s_dispatchQueue_mainAsync</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>DispatchQueue.main.async {
   &lt;#code#&gt;
-}
-</string>
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E8847AF3-D9A6-40C6-9DC1-981DD1A1042A</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -20,7 +20,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>GCD dispatch_async on main queue snippet for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>GCD dispatch_async on main queue</string>
+	<string>GCD DispatchQueue on main</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

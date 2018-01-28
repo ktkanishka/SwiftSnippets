@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>objc_sync_enter(&lt;#T##obj: Any!##Any!#&gt;); defer { objc_sync_exit(&lt;#T##obj: Any!##Any!#&gt;) }</string>
+	<string>objc_sync_enter(&lt;#obj: Any#&gt;); defer { objc_sync_exit(&lt;#obj: Any#&gt;) }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B60E88F2-2390-4BAB-9968-477D76187662</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -21,6 +21,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

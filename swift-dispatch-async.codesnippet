@@ -3,26 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>s_dispatchBackground</string>
+	<string>s_dispatchQueue_globalAsync</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DispatchQueue.global().async {
-  &lt;#backgroundCode#&gt;
-  DispatchQueue.main.async {
-    &lt;#HandleUI#&gt;
-  }
+	<string>DispatchQueue.global(qos: .default).async {
+  &lt;#Background Task#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>731C3867-9874-4559-8350-5F2B054A5AF9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>GCD dispatch_async snippet for Swift</string>
+	<string>GCD global_async snippet for background task for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>GCD dispatch_async for Background and UI</string>
+	<string>GCD DispatchQueue on global</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

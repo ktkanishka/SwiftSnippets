@@ -3,22 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>s_MARK</string>
+	<string>s_multipleCommentary</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
 		<string>TopLevel</string>
+		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: &lt;#Comment#&gt;</string>
+	<string>/***************************************************
+ &lt;#comment#&gt;
+ ***************************************************/</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7329708D-DA17-4129-A8F9-A780DFA5FAE1</string>
+	<string>47E587EA-3DF6-4E7A-8711-F42783354E41</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Divider label for separating code into sections</string>
+	<string>Multiple line commentary for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Mark Comment</string>
+	<string>Multiple Line Commentary</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

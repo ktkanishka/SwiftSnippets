@@ -15,16 +15,16 @@
   //    UIApplication.shared.registerForRemoteNotifications()
   
   // Ask user for allowed notification types
-  //    # Warning # - UIUserNotificationSetting was deprecated in iOS10
-  //	  let settings = UIUserNotificationSettings(types: [.alert, .badge, .sound], categories: nil)
-  //	  UIApplication.shared.registerUserNotificationSettings(settings)
+  //    # Warning # - UIUserNotification was deprecated in iOS10, Use UNUserNotifications instead
+  //    let settings = UIUserNotificationSettings(types: [.alert, .badge, .sound], categories: nil)
+  //    UIApplication.shared.registerUserNotificationSettings(settings)
   
   func application(
     _ application: UIApplication,
     didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data
     ) {
     let token = deviceToken.reduce("") { $0 + String(format: "%.2hhx", $1) }
-    print("Successfully registered for Remote Notifications with token: \(token)")
+    print("Successfully registered for Remote Notifications with token: \(token)\n")
   }
   
   func application(
@@ -39,8 +39,10 @@
     didReceiveRemoteNotification userInfo: [AnyHashable : Any],
     fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -&gt; Void
     ) {
-    
-  }</string>
+    print("Did receive remote notification")
+    print(userInfo)
+  }
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0ADC5D4B-64A3-42B1-8A4D-5741D99D0714</string>
 	<key>IDECodeSnippetLanguage</key>

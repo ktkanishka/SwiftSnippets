@@ -3,24 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>s_ClosureTypealias</string>
+	<string>s_UITextFieldDelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typealias &lt;#closure#&gt; = (_ &lt;#arguments#&gt;) -&gt; &lt;#return#&gt;</string>
+	<string>// MARK: - UITextFieldDelegate
+
+extension &lt;#class#&gt;ViewController : UITextFieldDelegate {
+  func textFieldShouldReturn(_ textField: UITextField) -&gt; Bool {
+    textField.resignFirstResponder()
+    return true
+  }
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>42AA2BDB-AA64-4260-9726-A72C20E79FBB</string>
+	<string>0C6B92CA-7D51-47F7-A909-D9EA6B89C312</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Closure typealias with arguments and return value snippet for Swift</string>
+	<string>UITextFieldDelegate snippet for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Typealias for Closure</string>
+	<string>UITextFieldDelegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

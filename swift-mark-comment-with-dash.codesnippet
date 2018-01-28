@@ -3,26 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>s_NotiForDidBecomeActive</string>
+	<string>s_MARKwithDash</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NotificationCenter.default.addObserver(
-  self,
-  selector: #selector(&lt;#selector#&gt;),
-  name: .UIApplicationDidBecomeActive,
-  object: nil
-)</string>
+	<string>// MARK: - &lt;#Comment#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DA8B025D-2EEA-4917-98FA-6ED8DCA1ED2B</string>
+	<string>7329708D-DA17-4129-A8F9-A780DFA5FAE1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Add Notification Observer For UIApplicationDidBecomeActive snippet for Swift</string>
+	<string>Divider label for separating code into sections</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Add Noti observer for DidBecomeActive</string>
+	<string>Mark Comment with Dash</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

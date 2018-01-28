@@ -6,28 +6,26 @@
 	<string>s_UITableviewDatasource</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>  // MARK: UITableViewDataSource
-  
-  func numberOfSections(in tableView: UITableView) -&gt; Int {
-    return &lt;#numberOfSections#&gt;
-  }
-  
+	<string>// MARK: - UITableViewDataSource
+
+extension &lt;#class#&gt;ViewController : UITableViewDataSource {
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
     return &lt;#numberOfRows#&gt;
   }
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: &lt;#identifier#&gt;, for: indexPath)
-    configureCell(cell: cell, forRowAt: indexPath)
+    setupCell(cell, forRowAt: indexPath)
     return cell
   }
-  
-  func configureCell(cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+
+  private func setupCell(_ cell: &lt;#UITableViewCell#&gt;, forRowAt indexPath: IndexPath) {
     
   }
+}
 
 </string>
 	<key>IDECodeSnippetIdentifier</key>

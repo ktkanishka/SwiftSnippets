@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>fileprivate let disposeBag = DisposeBag()</string>
+	<string>private let disposeBag = DisposeBag()</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>67A1544F-C8C4-4CB6-91F6-75ACC22E8958</string>
 	<key>IDECodeSnippetLanguage</key>

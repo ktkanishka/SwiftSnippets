@@ -3,29 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>s_AddNotiObserver</string>
+	<string>s_realm_primaryKey</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NotificationCenter.default.addObserver(
-  self,
-  selector: #selector(&lt;#selector#&gt;),
-  name: &lt;#NotificationName#&gt;,
-  object: nil
-)</string>
+	<string>  override class func primaryKey() -&gt; String? {
+    return "&lt;#key#&gt;"
+  }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>86464671-3FED-4312-B925-936322E940F4</string>
+	<string>7A9A44CF-6EA6-4A68-BA0A-256073EE6BBA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Add notification observer snippet for Swift</string>
+	<string>Declare realm object primaryKey </string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Add Notification Observer</string>
+	<string>Realm object primaryKey declaration</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

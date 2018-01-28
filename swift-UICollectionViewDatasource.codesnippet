@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>s_UICollectionViewDataSource</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// MARK: - UICollectionViewDataSource
+
+extension &lt;#class#&gt;ViewController : UICollectionViewDataSource {
+  func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int {
+    return &lt;#code#&gt;
+  }
+  
+  func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -&gt; UICollectionViewCell {
+    let cell = collectionView.dequeueReusableCell(withReuseIdentifier: &lt;#T##String#&gt;, for: indexPath)
+    &lt;#code#&gt;
+    return cell
+  }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F777DA5E-A7BD-417C-9315-7F3F67418BA0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UICollectionViewDataSource snippet for Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UICollectionViewDataSource</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
