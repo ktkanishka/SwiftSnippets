@@ -1,6 +1,6 @@
 # Xcode Swift Snippets
 
-Xcode Swift 3 snippets to make your life easier.
+Xcode Swift 4 snippets to make your life easier.
 
 ## How to install
 
