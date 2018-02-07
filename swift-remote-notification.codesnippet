@@ -6,19 +6,20 @@
 	<string>s_RemoteNotification</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>  // MARK: Remote Notifications
-  
-  // Move this line somewhere where your app starts
-  //    UIApplication.shared.registerForRemoteNotifications()
-  
-  // Ask user for allowed notification types
-  //    # Warning # - UIUserNotification was deprecated in iOS10, Use UNUserNotifications instead
-  //    let settings = UIUserNotificationSettings(types: [.alert, .badge, .sound], categories: nil)
-  //    UIApplication.shared.registerUserNotificationSettings(settings)
-  
+	<string>// MARK: - Remote Notifications
+
+// Move this line somewhere where your app starts
+//    UIApplication.shared.registerForRemoteNotifications()
+
+// Ask user for allowed notification types
+//    # Warning # - UIUserNotification was deprecated in iOS10, Use UNUserNotifications instead
+//    let settings = UIUserNotificationSettings(types: [.alert, .badge, .sound], categories: nil)
+//    UIApplication.shared.registerUserNotificationSettings(settings)
+
+extension AppDelegate {
   func application(
     _ application: UIApplication,
     didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data
@@ -42,6 +43,7 @@
     print("Did receive remote notification")
     print(userInfo)
   }
+}
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0ADC5D4B-64A3-42B1-8A4D-5741D99D0714</string>

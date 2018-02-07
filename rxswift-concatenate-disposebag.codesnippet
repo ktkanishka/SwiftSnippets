@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>s_rx_disposeBag</string>
+	<string>s_rx_disposedBy</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeExpression</string>
@@ -17,7 +17,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>Add disposable object to DisposeBag</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Concatenate disposeBag to disposable</string>
+	<string>Concatenate disposedBy to disposable for RxSwift</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

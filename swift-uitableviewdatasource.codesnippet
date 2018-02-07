@@ -18,12 +18,8 @@ extension &lt;#class#&gt;ViewController : UITableViewDataSource {
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: &lt;#identifier#&gt;, for: indexPath)
-    setupCell(cell, forRowAt: indexPath)
+    &lt;#code#&gt;
     return cell
-  }
-
-  private func setupCell(_ cell: &lt;#UITableViewCell#&gt;, forRowAt indexPath: IndexPath) {
-    
   }
 }
 

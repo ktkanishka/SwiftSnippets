@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>    let button = UIButton()
-    button.frame = CGRect(x: 50, y: 50, width: 100, height: 50)
+    button.frame = CGRect(x: 50, y: 100, width: 100, height: 50)
     button.backgroundColor = .blue
     button.setTitle("Button", for: .normal)
     button.addTarget(self, action: #selector(didTapButton(_:)), for: .touchUpInside)

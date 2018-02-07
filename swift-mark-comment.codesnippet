@@ -6,8 +6,8 @@
 	<string>s_MARK</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
 		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>// MARK: &lt;#Comment#&gt;</string>
