@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>s_simple_log_function</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>func info(
+  _ contents: Any...,
+  header: String = "",
+  _ file: String = #file,
+  _ function: String = #function,
+  _ line: Int = #line
+  ) {
+  let emoji = "🐱"
+  
+  let dateFormatter = DateFormatter()
+  dateFormatter.dateFormat = "HH:mm:ss:SSS"
+  let timestamp = dateFormatter.string(from: Date())
+  
+  let fileUrl = URL(fileURLWithPath: file)
+  let fileName = fileUrl.deletingPathExtension().lastPathComponent
+  
+  let header = header.isEmpty ? "" : " [ \(header) ] -"
+  let content = contents.reduce("") { $0 + " " + String(describing: $1) }
+  
+  print("\(emoji) \(timestamp) | \(fileName) | \(function) (\(line)) \(emoji)\(header)\(content)")
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>37F2149D-4EB0-4C70-8A54-10EAB31D2DD5</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Simple log function with debugging identifier</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Simple Log Function</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

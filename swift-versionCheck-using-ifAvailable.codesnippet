@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>s_versionCheckUsingIfAvailable</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    if #available(iOS 11.0, *) {
+      &lt;#code#&gt;
+    } else {
+      &lt;#code#&gt;
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>57E9B5D9-AA3E-4B4B-909B-2C479D9FEBB8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Add if #available version check snippet for Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Add if #available version check</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

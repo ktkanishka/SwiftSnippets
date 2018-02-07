@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>s_codebase_viewController_format</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>final class &lt;#classname#&gt;ViewController: &lt;#superclass#&gt; {
+  
+  // MARK: UI
+  
+  private struct UI {
+    // Metrics, Fonts, Colors
+  }
+  
+  // MARK: Properties
+  
+  // let &lt;#name#&gt; = &lt;#value#&gt;
+  
+  // MARK: Setup ViewController Base
+  
+  func setupUI() {
+    
+  }
+  
+  func setupConstraints() {
+    
+  }
+  
+  // MARK: View LifeCycle
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+  }
+  
+  // MARK: Action Handler
+  
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8A603E29-BAA6-4C0C-BEFB-848501ECAB86</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>CodeBase ViewController Format Snippet for Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>CodeBase ViewController Format</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
