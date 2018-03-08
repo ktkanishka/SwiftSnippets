@@ -6,7 +6,7 @@
 	<string>s_codebase_viewController_format</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>final class &lt;#classname#&gt;ViewController: &lt;#superclass#&gt; {

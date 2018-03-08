@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>// MARK: - UITableViewDataSource
 
-extension &lt;#class#&gt;ViewController : UITableViewDataSource {
+extension &lt;#class#&gt;ViewController: UITableViewDataSource {
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
     return &lt;#numberOfRows#&gt;
   }

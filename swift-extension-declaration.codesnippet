@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>// MARK: - &lt;#comment#&gt;
 
-extension &lt;#class#&gt; : &lt;#protocol#&gt; {
+extension &lt;#class#&gt;: &lt;#protocol#&gt; {
   &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

@@ -3,27 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>s_UICollectionViewDelegate</string>
+	<string>s_methodDeclaration</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - UICollectionViewDelegate
-
-extension &lt;#class#&gt;ViewController: UICollectionViewDelegate {
-  func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+	<string>  private func &lt;#methodName#&gt;() {
     &lt;#code#&gt;
-  }
-}</string>
+  }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E07DF7D6-0BEA-4A89-8C88-1885F489E96C</string>
+	<string>B2406B48-9150-4AC0-96D5-E96486D93182</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>UICollectionViewDelegate snippet for Swift</string>
+	<string>Basic method declaration snippet for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UICollectionViewDelegate</string>
+	<string>Basic method declaration</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

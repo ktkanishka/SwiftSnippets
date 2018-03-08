@@ -13,9 +13,9 @@
     button.frame = CGRect(x: 50, y: 100, width: 100, height: 50)
     button.backgroundColor = .blue
     button.setTitle("Button", for: .normal)
-    button.addTarget(self, action: #selector(didTapButton(_:)), for: .touchUpInside)
+    button.addTarget(self, action: #selector(buttonDidTap(_:)), for: .touchUpInside)
     view.addSubview(button)
-    @objc private func didTapButton(_ button: UIButton) {
+    @objc private func buttonDidTap(_ button: UIButton) {
       
     }</string>
 	<key>IDECodeSnippetIdentifier</key>

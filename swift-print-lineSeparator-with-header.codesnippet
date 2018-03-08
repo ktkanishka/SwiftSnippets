@@ -11,7 +11,7 @@
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>print("\n-------------------- [ &lt;#heder#&gt; ] --------------------\n")</string>
+	<string>print("\n---------- [ &lt;#heder#&gt; ] ----------\n")</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>AB1F2771-948B-493C-9560-2D0C6DF5D7BE</string>
 	<key>IDECodeSnippetLanguage</key>

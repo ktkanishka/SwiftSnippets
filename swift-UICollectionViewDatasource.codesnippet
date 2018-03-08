@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>// MARK: - UICollectionViewDataSource
 
-extension &lt;#class#&gt;ViewController : UICollectionViewDataSource {
+extension &lt;#class#&gt;ViewController: UICollectionViewDataSource {
   func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int {
     return &lt;#code#&gt;
   }
